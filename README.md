@@ -18,6 +18,7 @@ Frontend: Streamlit
 Serialization: Pickle
 
 📊 How it Works
+
 Data Preprocessing: The system cleans the dataset by merging the movies and credits dataframes. It extracts relevant tags from JSON-formatted columns like genres and cast.
 
 Vectorization: Using Bag of Words (CountVectorizer), the textual tags are converted into numerical vectors.
@@ -58,6 +59,7 @@ Bash
 streamlit run app.py
 
 📈 Future Improvements
+
 Integrate the TMDB API to display movie posters in the UI.
 
 Incorporate Collaborative Filtering to suggest movies based on user ratings.
